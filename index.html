@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tata Cara Sholat</title>
+    <title>Beranda - Panduan Ibadah</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <style>
@@ -13,228 +13,64 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
         }
+        .hero-section {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 4rem 2rem;
+            border-radius: 0.5rem;
+            margin-bottom: 2rem;
+        }
     </style>
 </head>
 <body>
-    <nav class="card mb-4 navbar-card">
-        <div class="card-body text-center">
-            <h1 class="card-title">Tata Cara Sholat Sesuai HPT Muhammadiyah</h1>
-            <p class="card-text">Panduan lengkap tata cara sholat berdasarkan Himpunan Putusan Tarjih (HPT) Muhammadiyah.</p>
-            <header class="navbar">
-<a href="beranda.html">Beranda</a>
-<a href="index.html">Tatacara Sholat</a>
-<a href="tatacara wudhu.html">Tatacara Wudhu</a>
-<a href="tentang.html">Tentang</a>
-</header>
+    <div class="container mt-5">
+        <div class="text-center hero-section">
+            <h1 class="display-4">Panduan Ibadah</h1>
+            <p class="lead">Media pembelajaran digital untuk tata cara bersuci dan sholat sesuai tuntunan HPT Muhammadiyah.</p>
         </div>
-    </nav>
 
-    <div class="container mt-5 main-container">
-
-        <div class="row row-cols-1 g-4 justify-content-center">
-            <!-- Niat -->
-            <div class="col">
+        <div class="row">
+            <!-- Card untuk Tata Cara Sholat -->
+            <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="img shalat/salat1.jpeg" class="card-img-top" alt="Niat">
-                    <div class="card-body">
-                        <h5 class="card-title">1. Niat</h5>
-                        <p class="card-text">Niat sholat dilakukan di dalam hati bersamaan dengan gerakan takbiratul ihram. Tidak ada lafaz niat khusus yang diucapkan secara lisan. Esensi dari niat adalah ketulusan dan kesadaran hati untuk menunaikan ibadah sholat fardhu atau sunnah karena Allah SWT.</p>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tata Cara Sholat</h5>
+                        <p class="card-text">Panduan lengkap tata cara sholat, mulai dari niat hingga salam, berdasarkan Himpunan Putusan Tarjih Muhammadiyah.</p>
+                        <a href="beranda.html" class="btn btn-primary">Lihat Panduan Sholat</a>
                     </div>
                 </div>
             </div>
-
-            <!-- Takbiratul Ihram -->
-            <div class="col">
+            <!-- Card untuk Tata Cara Wudhu -->
+            <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="img shalat/salat1.jpeg" class="card-img-top" alt="Takbiratul Ihram">
-                    <audio controls class="w-100 p-3">
-                        <source src="audio/salam pembuka.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <div class="card-body">
-                        <h5 class="card-title">2. Berdiri dan Takbiratul Ihram</h5>
-                        <p class="card-text">Bagi yang mampu, sholat dimulai dengan posisi berdiri tegak menghadap kiblat. Kemudian, mengangkat kedua tangan sejajar dengan bahu atau hingga ujung jari sejajar dengan daun telinga, sambil mengucapkan takbir:</p>
-                        <p class="arabic">اللهُ أَكْبَرُ</p>
-                        <p class="latin"><em>Allahu Akbar</em></p>
-                        <p class="translation">"Allah Maha Besar"</p>
-                        <p class="card-text">Setelah takbir, tangan kanan diletakkan di atas punggung telapak tangan kiri, dan keduanya diletakkan di atas dada.</p>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tata Cara Wudhu</h5>
+                        <p class="card-text">Pelajari langkah demi langkah tata cara berwudhu yang benar sebagai syarat sahnya sholat.</p>
+                        <a href="tatacara wudhu.html" class="btn btn-primary">Lihat Panduan Wudhu</a>
                     </div>
                 </div>
             </div>
-
-            <!-- Doa Iftitah -->
-            <div class="col">
+            <!-- Card untuk Tentang Kami -->
+            <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="img shalat/salat2.jpeg" class="card-img-top" alt="Doa Iftitah">
-                    <audio controls class="w-100 p-3">
-                        <source src="audio/doa_iftitah.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <div class="card-body">
-                        <h5 class="card-title">3. Doa Iftitah</h5>
-                        <p class="card-text">Setelah takbiratul ihram, disunnahkan membaca doa iftitah. Terdapat beberapa pilihan doa yang dapat dibaca, di antaranya:</p>
-                        <p class="arabic">اللَّهُمَّ بَاعِدْ بَيْنِي وَبَيْنَ خَطَايَايَ كَمَا بَاعَدْتَ بَيْنَ الْمَشْرِقِ وَالْمَغْرِبِ، اللَّهُمَّ نَقِّنِي مِنَ الْخَطَايَا كَمَا يُنَقَّى الثَّوْبُ الْأَبْيَضُ مِنَ الدَّنَسِ، اللَّهُمَّ اغْسِلْ خَطَايَايَ بِالْمَاءِ وَالثَّلْجِ وَالْبَرَدِ</p>
-                        <p class="latin"><em>Allahumma baa'id bainii wa baina khathaayaaya kamaa baa'adta bainal masyriqi wal maghrib. Allahumma naqqinii minal khathaayaa kamaa yunaqqats tsaubul abyadhu minad danas. Allahummaghsil khathaayaaya bil maa-i wats-tsalji wal barad.</em></p>
-                        <p class="translation">"Ya Allah, jauhkanlah antara aku dan kesalahan-kesalahanku sebagaimana Engkau telah menjauhkan antara timur dan barat. Ya Allah, sucikanlah aku dari kesalahan sebagaimana pakaian yang putih disucikan dari kotoran. Ya Allah, cucilah kesalahanku dengan air, salju, dan air dingin."</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Al-Fatihah -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img shalat/salat3.jpeg" class="card-img-top" alt="Al-Fatihah">
-                    <audio controls class="w-100 p-3">
-                        <source src="audio/001-al-fatiha.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <div class="card-body">
-                        <h5 class="card-title">4. Membaca Al-Fatihah</h5>
-                        <p class="card-text">Setelah membaca doa iftitah, dilanjutkan dengan membaca ta'awudz secara lirih, kemudian membaca surat Al-Fatihah di setiap rakaat.</p>
-                        <p class="arabic" style="direction: rtl; text-align: right;">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ اَلْحَمْدُ لِلّٰهِ رَبِّ الْعٰلَمِيْنَۙ الرَّحْمٰنِ الرَّحِيْمِۙ مٰلِكِ يَوْمِ الدِّيْنِۗ اِيَّاكَ نَعْبُdُ وَاِيَّاكَ نَسْتَعِيْنُۗ اِهْدِنَا الصِّرَاطَ الْمُسْتَقِيْمَۙ صِرَاطَ الَّذِيْنَ اَنْعَمْتَ عَلَيْهِمْ ەۙ غَيْرِ الْمَغْضُوْبِ عَلَيْهِمْ وَلَا الضَّاۤلِّيْنَ</p>
-                        <p class="latin"><em>Bismillāhir-raḥmānir-raḥīm Al-ḥamdu lillāhi rabbil-'ālamīn Ar-raḥmānir-raḥīm Māliki yaumid-dīn Iyyāka na'budu wa iyyāka nasta'īn Ihdināṣ-ṣirāṭal-mustaqīm Ṣirā���al-lażīna an'amta 'alaihim, gairil-magḍūbi 'alaihim wa laḍ-ḍāllīn</em></p>
-                        <p class="translation">"Dengan nama Allah Yang Maha Pengasih, Maha Penyayang. Segala puji bagi Allah, Tuhan seluruh alam, Yang Maha Pengasih, Maha Penyayang, Pemilik hari pembalasan. Hanya kepada Engkaulah kami menyembah dan hanya kepada Engkaulah kami mohon pertolongan. Tunjukilah kami jalan yang lurus, (yaitu) jalan orang-orang yang telah Engkau beri nikmat kepadanya; bukan (jalan) mereka yang dimurkai, dan bukan (pula jalan) mereka yang sesat."</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Ruku -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img shalat/salat4.jpeg" class="card-img-top" alt="Ruku">
-                    <audio controls class="w-100 p-3">
-                        <source src="audio/rukuk.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <div class="card-body">
-                        <h5 class="card-title">5. Ruku' dengan Tuma'ninah</h5>
-                        <p class="card-text">Selesai membaca Al-Fatihah (dan surat pendek pada rakaat pertama dan kedua), mengangkat kedua tangan seperti takbiratul ihram, lalu ruku' dengan punggung lurus sejajar dengan leher dan dalam keadaan tuma'ninah (tenang sejenak). Bacaan saat ruku':</p>
-                        <p class="arabic">سُبْحَانَكَ اللَّهُمَّ رَبَّنَا وَبِحَمْ��ِكَ اللَّهُمَّ اغْفِرْ لِي</p>
-                        <p class="latin"><em>Subhaanakallaahumma rabbanaa wabihamdika Allaahummaghfirlii.</em></p>
-                        <p class="translation">"Maha Suci Engkau, ya Allah Tuhan kami, dan dengan memuji Engkau, ya Allah, aku memohon ampun."</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Itidal -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img shalat/salat5.jpeg" class="card-img-top" alt="Itidal">
-                    <audio controls class="w-100 p-3">
-                        <source src="audio/Doa_itidal.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <div class="card-body">
-                        <h5 class="card-title">6. I'tidal dengan Tuma'ninah</h5>
-                        <p class="card-text">Bangkit dari ruku' untuk i'tidal sambil mengangkat kedua tangan dan mengucapkan:</p>
-                        <p class="arabic" style="direction: rtl; text-align: right;">سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ رَبَّنَا وَلَكَ الْحَمْدُ حَمْدًا كَثِيرًا طَيِّبًا مُبَارَكًا فِيهِ</p>
-                        <p class="latin"><em>Sami'allaahu liman hamidah. Rabbanaa wa lakal hamdu hamdan katsiiran thayyiban mubaarokan fiih.</em></p>
-                        <p class="translation">"Allah mendengar orang yang memuji-Nya. Ya Tuhanku, bagi-Mulah segala puji, pujian yang banyak, baik, dan memberkati."</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Sujud -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img shalat/salat6.jpeg" class="card-img-top" alt="Sujud">
-                    <audio controls class="w-100 p-3">
-                        <source src="audio/sujud.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <div class="card-body">
-                        <h5 class="card-title">7. Sujud dengan Tuma'ninah</h5>
-                        <p class="card-text">Turun untuk sujud dengan tuma'ninah. Saat sujud, dapat membaca salah satu dari bacaan berikut:</p>
-                        <p class="arabic">سُبْحَانَكَ اللَّهُمَّ رَبَّنَا وَبِحَمْدِكَ اللَّهُمَّ اغْفِرْ لِي</p>
-                        <p class="latin"><em>Subhaanakallahumma rabbanaa wa bihamdikallahummaghfirlii.</em></p>
-                        <p class="translation">"Maha suci Engkau, Ya Allah, dan dengan memuji kepada Engkau, Ya Allah, aku memohon ampun."</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Duduk di Antara Dua Sujud -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img shalat/salat7.jpeg" class="card-img-top" alt="Duduk di Antara Dua Sujud">
-                    <audio controls class="w-100 p-3">
-                        <source src="audio/duduk_antara_dua_sujud.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <div class="card-body">
-                        <h5 class="card-title">8. Duduk di Antara Dua Sujud</h5>
-                        <p class="card-text">Bangkit dari sujud untuk duduk di antara dua sujud dengan tuma'ninah, dan membaca:</p>
-                        <p class="arabic">اللَّهُمَّ اغْفِرْ لِي وَارْحَمْنِي وَاجْبُرْنِي وَاهْدِنِي وَارْزُقْنِي</p>
-                        <p class="latin"><em>Allaahummaghfirlii warhamnii wajburnii wahdinii warzuqnii.</em></p>
-                        <p class="translation">"Ya Allah, ampunilah aku, belas kasihanilah aku, cukupilah aku, tunjukilah aku dan berikanlah rezeki kepadaku."</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tasyahud Awal -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img shalat/salat8.jpeg" class="card-img-top" alt="Tasyahud Awal">
-                    <audio controls class="w-100 p-3">
-                        <source src="audio/bacaan-tasyawud-awal.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <div class="card-body">
-                        <h5 class="card-title">9. Tasyahud Awal</h5>
-                        <p class="card-text">Pada rakaat kedua (untuk sholat yang memiliki lebih dari dua rakaat), duduk untuk tasyahud awal dengan membaca:</p>
-                        <p class="arabic">التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَ��ْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ</p>
-                        <p class="latin"><em>Attahiyyaatu lillaahi washsholawaatu waththoyyibaat. Assalaamu 'alaika ayyuhannabiyyu warohmatullaahi wabarokaatuh. Assalaamu'alainaa wa'ala 'ibaadillaahi shshoolihiin. Asyhadu anlaa ilaaha illallaah waasyhadu annamuhammadan 'abduhu warosuuluh.</em></p>
-                        <p class="translation">"Segala kehormatan, kebahagiaan dan kebaikan adalah milik Allah. Semoga keselamatan, rahmat Allah dan keberkahan-Nya terlimpahkan kepadamu wahai Nabi. Semoga keselamatan juga terlimpah bagi kami dan bagi hamba-hamba Allah yang sholeh. Aku bersaksi bahwa tiada Tuhan selain Allah dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya."</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Tasyahud Akhir -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img shalat/salat9.jpeg" class="card-img-top" alt="Tasyahud Akhir">
-                    <audio controls class="w-100 p-3">
-                        <source src="audio/bacaan-tasyawud_akhir.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <div class="card-body">
-                        <h5 class="card-title">10. Tasyahud Akhir</h5>
-                        <p class="card-text">Pada rakaat terakhir, duduk tasyahud akhir. Bacaannya sama dengan tasyahud awal, kemudian dilanjutkan dengan shalawat kepada Nabi:</p>
-                        <p class="arabic">اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ. اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِي��ٌ مَjِيدٌ</p>
-                        <p class="latin"><em>Allaahumma sholli 'alaa Muhammad wa'alaa aali Muhammad. Kamaa shollaita 'alaa ibroohiim wa aali ibroohiim. Innaka hamiidummajiid. Wabaarik 'alaa Muhammad wa aali Muhammad. Kamaa baarokta 'alaa ibroohiim wa aali ibroohiim. Innaka hamiidummajiid.</em></p>
-                        <p class="translation">"Ya Allah, semoga shalawat tercurah kepada Muhammad dan keluarga Muhammad. Seperti rahmat yang tercurah pada Ibrahim dan keluarga Ibrahim. Dan limpahilah berkah atas Nabi Muhammad beserta para keluarganya. Seperti berkah yang Engkau berikan kepada Nabi Ibrahim dan keluarganya. Sesungguhnya Engkau Maha Terpuji lagi Maha Mulia di seluruh alam."</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Salam -->
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img shalat/salat10.jpeg" class="card-img-top" alt="Salam">
-                    <audio controls class="w-100 p-3">
-                        <source src="audio/salam.mp3" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
-                    <div class="card-body">
-                        <h5 class="card-title">11. Salam</h5>
-                        <p class="card-text">Sholat diakhiri dengan salam, yaitu menoleh ke kanan lalu ke kiri sambil mengucapkan:</p>
-                        <p class="arabic">السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ</p>
-                        <p class="latin"><em>Assalaamu 'alaikum warohmatullaahi wabarokaatuh.</em></p>
-                        <p class="translation">"Berbahagialah kamu sekalian dengan rahmat dan berkah Allah."</p>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Tentang Kami</h5>
+                        <p class="card-text">Informasi mengenai dosen pengampu dan tim penyusun media pembelajaran ini.</p>
+                        <a href="tentang.html" class="btn btn-primary">Lihat Tentang Kami</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <footer class="footer-container mt-5">
+    <footer class="footer-container mt-4">
         <div class="card text-center">
             <div class="card-body">
-                <p class="card-text">&copy; 2025 Tata Cara Sholat. All Rights Reserved.</p>
-                <a href="beranda.html" class="btn btn-primary">Sebelumnya</a>
-                <a href="tatacara wudhu.html" class="btn btn-primary">Selanjutnya</a>
+                <p class="card-text">&copy; 2025 Panduan Ibadah. All Rights Reserved.</p>
+                <a href="index.html" class="btn btn-primary">Selanjutnya</a>
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
